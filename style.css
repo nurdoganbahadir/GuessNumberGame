@@ -16,7 +16,7 @@ body {
 }
 button {
   width: 100px;
-  height: 30px;
+  height: 2rem;
   background-color: greenyellow;
   border: none;
   border-radius: 5px;
@@ -24,7 +24,11 @@ button {
   cursor: pointer;
   transition: all 0.3s;
 }
-button:hover{
-    background-color: green;
-    color: white;
+button:hover {
+  background-color: green;
+  color: white;
+}
+input {
+    height: 25px;
+    font-size: 18px;
 }
