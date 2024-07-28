@@ -22,4 +22,9 @@ button {
   border-radius: 5px;
   font-weight: bolder;
   cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover{
+    background-color: green;
+    color: white;
 }
