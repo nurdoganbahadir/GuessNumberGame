@@ -4,9 +4,9 @@ let myInput = document.querySelector(".myInput");
 let tahminHakki = 5;
 let sayi = Math.floor(Math.random() * 100) + 1;
 
-let result = document.createElement("h1");
+let result = document.createElement("h2");
 myInput.appendChild(result);
-let tahminResult = document.createElement("p");
+let tahminResult = document.createElement("h5");
 myInput.appendChild(tahminResult);
 
 checkBtn.onclick = function () {
@@ -25,7 +25,7 @@ checkBtn.onclick = function () {
     tahminResult.innerHTML = `Kalan tahmin hakkınız: ${tahminHakki}`;
   }
   if (tahminHakki === 0 && number !== sayi) {
-    result.innerHTML = "Tahmin Hakkınız Bitti! Doğru sayı: " + sayi;
+    result.innerHTML = `Tahmin Hakkınız Bitti! Doğru sayı ${sayi}`;
     resetGame();
   }
 };
